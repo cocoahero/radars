@@ -1,4 +1,4 @@
-# rdar://######
+# rdar://34059882
 
 ### Summary
 When using a `UICollectionViewFlowLayout` and setting it's `estimatedItemSize` property, calling `reloadData()` on the related `UICollectionView` instance fails to display cells that may have been added since the last call to `reloadData()`.
